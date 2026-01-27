@@ -1,0 +1,14 @@
+# Python 缓存
+__pycache__/
+*.py[cod]
+
+# pytest 缓存
+.pytest_cache/
+
+# 虚拟环境（按需）
+.venv/
+venv/
+env/
+
+# 日志
+*.log
