@@ -9,7 +9,7 @@ from __future__ import annotations
 
 # 要在“请选择应用”下拉框中选择的应用名称。
 # 示例："本源诗"、"测试应用"
-APP_NAME = "本源诗"
+APP_NAME = "测试应用"
 
 # 表与字段数据文件路径（相对项目根目录）。
 DATA_YAML_PATH = "data/data.yaml"

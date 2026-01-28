@@ -13,7 +13,7 @@ python -m playwright install chromium
 
 ### 2）手动执行（可视化）
 
-```bash
+```bash （执行速度慢，终端可查看当前进度）
 python scripts/run_local.py
 ```
 
@@ -22,13 +22,14 @@ python scripts/run_local.py
 
 ### 3）运行 pytest（自动化）
 
-```bash
+```bash （执行速度快）
 python -m pytest -q
 ```
 
 > pytest 只执行 test_*.py，不会执行 main.py 里的 run()。
 
 配置：
+- 进入快麦后台应用管理，新增应用，脚本可自动获取最新应用名（如：本源诗）
 - 修改 `kuaimai_ui/settings.py`：
   - APP_NAME：应用名（例如：测试应用）
   - DATA_YAML_PATH：数据文件路径（默认：data/data.yaml）
