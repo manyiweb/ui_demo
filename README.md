@@ -32,7 +32,7 @@ python -m pytest -q
 - 进入快麦后台应用管理，新增应用，脚本可自动获取最新应用名（如：本源诗）
 - 修改 `kuaimai_ui/settings.py`：
   - APP_NAME：应用名（例如：测试应用）
-  - DATA_YAML_PATH：数据文件路径（默认：data/data.yaml）
+  - DATA_YAML_PATH：数据文件路径（默认：data/data.yaml）**存放打印数据表名和字段，如快麦后台近期有新增字段，需在该文件手动添加**
   - PAUSE_AFTER_RUN：本地可视化执行后是否暂停页面（默认：False）
 
 可选环境变量（需要时再用）：
